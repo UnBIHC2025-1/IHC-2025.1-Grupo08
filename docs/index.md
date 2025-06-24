@@ -16,7 +16,7 @@ O VerificaAAA é um projeto criado a partir do curso de Interação Humano Compu
   </tr>
 </table>
 
-## Equipe 02 - Atualização do Documento com NBR
+## Equipe 02 - Atualização do Documento com Guia de Acessibilidade
 
 <table>
   <tr>
