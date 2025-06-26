@@ -1,8 +1,63 @@
 # 🏆 Guia de Boas Práticas em Acessibilidade Digital
 
+## 📌 Conceitos Fundamentais Utilizados
+
+Para a criação desse guia, foram utilizados três pilares conceituais para determinar critérios de aceitação de acessibilidade. Eles são:
+
+### 🔹 WCAG 2.2 (Web Content Accessibility Guidelines)
+
+A WCAG é um conjunto internacional de diretrizes do W3C que define padrões para tornar conteúdos web mais acessíveis a pessoas com diferentes tipos de deficiência. Seus princípios são:
+
+- **Perceptível:** O conteúdo deve ser apresentado de forma que possa ser percebido pelos sentidos do usuário.
+- **Operável:** Os elementos da interface devem ser utilizáveis por diferentes formas de navegação (teclado, mouse, toque).
+- **Compreensível:** As informações e a interface devem ser fáceis de entender.
+- **Robusto:** O conteúdo deve ser compatível com diferentes agentes de usuário e tecnologias assistivas.
+
+Além desses princípios, a versão 2.2 da WCAG introduz novos critérios, como:
+
+- **2.4.11 – Foco Não Oculto**
+- **2.4.12 – Aparência do Foco**
+- **2.5.7 – Alternativa ao Arrastar**
+- **2.5.8 – Alvo Tamanho Mínimo**
+- **3.2.6 – Consistência da Ajuda**
+- **3.3.7 – Mecanismo de Entrada Reduzida**
+
+Vale lembrar que a versão atual da WCAG é a versão 2.2, com a versão 3.0 já em estagios iniciais de desenvolvimento.
+
+### 🔹 NBR 17225:2025
+
+Norma brasileira da ABNT que estabelece requisitos para acessibilidade em conteúdos e aplicações web, adaptando os princípios da WCAG à realidade e à legislação brasileiras.
+
+Diretrizes extraídas da NBR e utilizadas neste guia incluem:
+
+- **Planejamento da acessibilidade desde a concepção**
+- **Contraste e legibilidade de textos e interfaces.**
+- **Estrutura de navegação clara e consistente.**
+- **Linguagem clara e objetiva, com apoio visual e contextual.**
+- **Compatibilidade com tecnologias assistivas.**
+- **Uso adequado de marcação semântica (cabeçalhos, listas, tabelas, formulários).**
+
+Essas diretrizes estão incorporadas nas seções sobre estrutura, conteúdo textual, apresentação visual e compatibilidade técnica.
+
+### 🔹 Diretrizes da ABNT para conteúdos acessíveis
+
+Além da NBR 17225, a ABNT também aponta boas práticas voltadas à produção de conteúdos acessíveis. Essas orientações reforçam a importância de:
+
+- Utilizar contrastes adequados e tipografia legível;
+- Escrever com linguagem simples, direta e inclusiva;
+- Organizar as informações com títulos bem estruturados;
+- Usar corretamente listas, tabelas e formulários com rótulos claros;
+- Evitar o uso exclusivo de cor como meio de transmitir informação.
+
+Essas práticas estão refletidas nas seções sobre estrutura semântica, links, botões, formulários e conteúdo textual.
+
+---
+
+Esses conceitos e diretrizes foram aplicados de forma integrada ao longo deste pocket para orientar desenvolvedores na criação de sistemas mais acessíveis e inclusivos.
+
 **Baseado na WCAG 2.2, NBR 17225:2025 e diretrizes da ABNT**
 
-> Este guia é um material de referência definitivo, prático e atualizado para promover acessibilidade digital em projetos web, sistemas e conteúdos. Ele unifica recomendações internacionais (WCAG 2.2) e brasileiras (NBR 17225:2025), orientando para a criação de experiências inclusivas, acessíveis e universais.
+> Este guia é um material de referência, prático e atualizado para promover acessibilidade digital em projetos web, sistemas e conteúdos. Ele unifica recomendações internacionais (WCAG 2.2) e brasileiras (NBR 17225:2025), orientando para a criação de experiências inclusivas, acessíveis e universais.
 
 ## 🎯 Princípios Fundamentais (WCAG)
 
