@@ -4,6 +4,15 @@
 <img src="docs/imagens/logo-verificaaa.png" alt="Logo de prancheta com checklist" style="width: 100px">
 </div>
 
+# Links:
+**Guia:** 
+
+https://unbihc2025-1.github.io/IHC-2025.1-Grupo08/  
+
+**Front do Projeto IHC:**  
+
+http://173.249.15.25:8080
+
 ## Introdução
 
 Este repositório tem como propósito fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento de software, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
