@@ -61,7 +61,10 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-
+  - stylesheets/relatorio-checklist.css
 extra_javascript:
   - js/progresso-checkbox.js
   - js/back-to-top.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js
+  - js/jspdf.umd.min.js
+  - js/relatorio-checklist.js
