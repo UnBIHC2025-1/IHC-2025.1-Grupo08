@@ -1,8 +1,13 @@
 # Design
 
-"Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
+Muitas pessoas acreditam, de forma equivocada, que a acessibilidade deixa um site simples demais ou sem beleza.  
+Isso não é verdade. Um site bem estruturado pode ser bonito, criativo e acessível ao mesmo tempo.
+
+Com o uso de CSS, é possível criar diferentes estilos visuais para o mesmo site, mantendo a mesma estrutura HTML.  
+Assim, é possível atender a diferentes preferências e necessidades, sem comprometer a acessibilidade.
 
 ## Aparência
+
 - [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
@@ -14,21 +19,23 @@
 - [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.
 - [ ] Evita o alinhamento justificado.
 - [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
-- [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
+- [ ] Toma o devido cuidado com <b>`display:none` e `visibility:hidden` para os recursos de tecnologia assistiva</b>
 - [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
 
 ## Animação
+
 - [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
 - [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
-- [ ] <b> Toda a animação</b> deve obedecer à ```prefers-reduced-motion``` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] <b> Toda a animação</b> deve obedecer à `prefers-reduced-motion` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
 
 ## Contraste de Cores
-- [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
+
+- [ ] <b> Verificar o contraste</b> de todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
 - [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
 - [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+- [ ] <b> Verificar `::selection` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
 
 ## Referências Bibliograficas
 

@@ -8,7 +8,7 @@ use_directory_urls: false
 nav:
   - Início - IncluCheck: "index.md"
   - Desenvolvimento Web:
-      - Desenvolvimento: "devWeb/non_text_content.md"
+      - Desenvolvimento: "devWeb/desenvlovimento.md"
   - Design:
       - Design: "design/design.md"
   - Geração de Conteúdo:
@@ -17,8 +17,10 @@ nav:
       - Gestão de Projetos: "gestaoProjeto/gestaoProjeto.md"
   - Ferramentas:
       - Ferramentas de Acessibilidade: "tools/ferramentas.md"
-  - Guia de Acessibilidade:
-      - Guia de Acessibilidade: "guiaAcessibilidade/guiaAcessibilidade.md"
+  - Informativo NBR e WCAG:
+      - Informativo NBR e WCAG: "informativo/informativo.md"
+  - Informativo Heurísticas de Nielsen:
+      - Heurísticas de Nielsen: "heuristicasDeNielsen/heuristicasDeNielsen.md"
 
 theme:
   name: material

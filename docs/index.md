@@ -2,9 +2,9 @@
 
 ## Descrição
 
-O IncluCheck é um projeto desenvolvido no contexto da disciplina de Interação Humano-Computador, sob orientação da professora Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Seu principal objetivo é oferecer um checklist prático de acessibilidade aplicável a diversos tipos de projetos — especialmente os voltados ao desenvolvimento — como desenvolvimento web, design, criação de conteúdo e gestão de projetos.
+O IncluCheck é um projeto desenvolvido no contexto da disciplina de Interação Humano-Computador, sob orientação da professora Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Seu principal objetivo é oferecer informações sobre acessibilidade um checklist prático sobre o tema, aplicável a diversos tipos de projetos.
 
-## Equipe:
+## Equipe
 
 <table>
   <tr>
