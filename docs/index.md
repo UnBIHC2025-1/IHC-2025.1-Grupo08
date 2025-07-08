@@ -1,22 +1,10 @@
-# VerificaAAA
+# IncluCheck
 
 ## Descrição
 
-O VerificaAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O IncluCheck é um projeto desenvolvido no contexto da disciplina de Interação Humano-Computador, sob orientação da professora Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Seu principal objetivo é oferecer um checklist prático de acessibilidade aplicável a diversos tipos de projetos — especialmente os voltados ao desenvolvimento — como desenvolvimento web, design, criação de conteúdo e gestão de projetos.
 
-## Equipe 01 - Primeira Versão do Documento
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
-  </tr>
-</table>
-
-## Equipe 02 - Atualização do Documento com Guia de Acessibilidade
+## Equipe:
 
 <table>
   <tr>
@@ -29,4 +17,4 @@ O VerificaAAA é um projeto criado a partir do curso de Interação Humano Compu
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/vitorfleonardo/VerificaAAA/tree/main?tab=License-1-ov-file) para detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md]https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo08 para detalhes.
