@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projeto EcoAcessível - Demonstração dos critérios WCAG 2.4.7 e 2.4.11" />
+  <title>EcoAcessível | Grupo 8 - WCAG 2.4.7 e 2.4.11</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip link para acessibilidade -->
+  <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+  <header>
+    <h1>🌱 EcoAcessível</h1>
+    <p>Unindo acessibilidade digital e sustentabilidade</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#formulario">Participe</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="inicio">
+      <h2>Bem-vindo ao EcoAcessível!</h2>
+      <p>Esta página demonstra os critérios de acessibilidade 2.4.7 (Foco Visível) e 2.4.11 (Ordem de Foco) da WCAG 2.2, enquanto alerta sobre a importância da sustentabilidade ambiental.</p>
+      <p>Clique no botão abaixo para dizer ao mundo que você apoia nossa causa!</p>
+      <button class="action-button" onclick="alert('Obrigado por apoiar nossa causa ecológica!')">Apoie nossa causa</button>
+    </section>
+
+    <section id="formulario">
+      <h2>Junte-se ao movimento</h2>
+      <form id="contact-form" onsubmit="enviarFormulario(event)">
+        <label for="nome">Nome completo (obrigatório):</label>
+        <input type="text" id="nome" name="nome" required aria-required="true" placeholder="Seu nome" />
+
+        <label for="email">E-mail (obrigatório):</label>
+        <input type="email" id="email" name="email" required aria-required="true" placeholder="seu@email.com" />
+
+        <button type="submit" class="submit-button">Enviar mensagem</button>
+      </form>
+
+      <div id="mensagem-confirmacao" aria-live="polite" role="status"></div>
+    </section>
+
+    <section id="contato">
+      <h2>Nossos contatos</h2>
+      <p>Entre em contato para saber mais sobre acessibilidade e sustentabilidade:</p>
+      <a href="mailto:contato@ecoacessivel.com" class="contact-link">contato@ecoacessivel.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EcoAcessível | Grupo 8 - Projeto IHC</p>
+    <p>Construindo um futuro digital inclusivo e sustentável</p>
+  </footer>
+
+  <script>
+    function enviarFormulario(event) {
+      event.preventDefault();
+      const nome = document.getElementById("nome").value;
+      const mensagem = document.getElementById("mensagem-confirmacao");
+      mensagem.innerHTML = `<p>Obrigado, <strong>${nome}</strong>! Sua mensagem foi enviada com sucesso. Em breve entraremos em contato sobre como você pode ajudar nosso planeta.</p>`;
+    }
+  </script>
+</body>
+</html>
