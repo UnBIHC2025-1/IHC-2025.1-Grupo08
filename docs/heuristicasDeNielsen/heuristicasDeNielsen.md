@@ -10,15 +10,15 @@ Para acessar o material que produzi sobre essas heurísticas, clique no link aba
 
 ## Lista das Heurísticas de Nielsen:
 
-1. [ ] Visibilidade do status do sistema.
-2. [ ] Compatibilidade entre o sistema e o mundo real.
-3. [ ] Controle e liberdade do usuário.
-4. [ ] Consistência e padrões.
-5. [ ] Prevenção de erros.
-6. [ ] Reconhecimento em vez de memorização.
-7. [ ] Flexibilidade e eficiência de uso.
-8. [ ] Estética e design minimalista.
-9. [ ] Ajudar os usuários a reconhecer, diagnosticar e recuperar-se de erros.
-10. [ ] Ajuda e documentação.
+1.  Visibilidade do status do sistema.
+2.  Compatibilidade entre o sistema e o mundo real.
+3.  Controle e liberdade do usuário.
+4.  Consistência e padrões.
+5.  Prevenção de erros.
+6.  Reconhecimento em vez de memorização.
+7.  Flexibilidade e eficiência de uso.
+8.  Estética e design minimalista.
+9.  Ajudar os usuários a reconhecer, diagnosticar e recuperar-se de erros.
+10. Ajuda e documentação.
 
 ---

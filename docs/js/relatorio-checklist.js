@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     addSection("Itens Marcados:", marked);
-    addSection("Itens Não Marcados:", unmarked);
 
     const fileName = `relatorio-${projectName
       .toLowerCase()

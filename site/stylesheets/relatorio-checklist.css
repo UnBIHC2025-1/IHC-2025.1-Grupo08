@@ -1,5 +1,5 @@
 #generate-report {
-  background-color: #00e676;
+  background-color: #006332;
   color: white;
   border: none;
   padding: 0.6rem 1rem;
@@ -59,7 +59,7 @@
 }
 
 #download-report {
-  background-color: #00e676;
+  background-color: #006332;
   color: white;
 }
 
@@ -89,5 +89,5 @@
 }
 
 [data-md-color-scheme="slate"] #report-modal button#download-report {
-  background-color: #00e676;
+  background-color: #006332;
 }

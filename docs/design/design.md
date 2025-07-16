@@ -1,62 +1,29 @@
-# Design
+## Design
 
-Muitas pessoas acreditam, de forma equivocada, que a acessibilidade deixa um site simples demais ou sem beleza.  
-Isso não é verdade. Um site bem estruturado pode ser bonito, criativo e acessível ao mesmo tempo.
+Nesta seção, o foco está na apresentação visual e na experiência estética do seu projeto. Um bom design acessível pensa em contraste, cores, tipografia e layout, garantindo que o conteúdo seja perceptível e confortável para todos, independentemente de suas habilidades visuais.
 
-Com o uso de CSS, é possível criar diferentes estilos visuais para o mesmo site, mantendo a mesma estrutura HTML.  
-Assim, é possível atender a diferentes preferências e necessidades, sem comprometer a acessibilidade.
+### Checklist de Design
 
-## Aparência
+**Apresentação**
 
-- [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3"href="#RP3">[3]</a>
-- [ ] <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5"href="#RP5">[5]</a>
-- [ ] Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes.
-- [ ] Parágrafos com no <b> máximo 80 caracteres por linha </b>.
-- [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.
-- [ ] Evita o alinhamento justificado.
-- [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
-- [ ] Toma o devido cuidado com <b>`display:none` e `visibility:hidden` para os recursos de tecnologia assistiva</b>
-- [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
+- [ ] Ausência de instruções para compreender e utilizar o conteúdo que dependem somente de características sensoriais dos componentes (forma, cor, tamanho, localização visual, orientação e som). [ABNT NBR 17225:2025, 5.10.1 (Requisito); WCAG 2.2, C.S. 1.3.3 (A)]
+- [ ] Apresentação dos elementos na tela preserva o significado e a operabilidade. [ABNT NBR 17225:2025, 5.10.2 (Requisito); WCAG 2.2, C.S. 1.3.2 (A)]
+- [ ] Conteúdo não restringe sua visualização e operação a uma única orientação de exibição (retrato ou paisagem); ou a orientação específica é essencial. [ABNT NBR 17225:2025, 5.10.3 (Requisito); WCAG 2.2, C.S. 1.3.4 (AA)]
+- [ ] Ausência de perda de informação ou funcionalidade, nem barra de rolagem em duas dimensões para conteúdo de rolagem horizontal com altura equivalente a 256 pixels CSS; ou para conteúdo de rolagem vertical com largura equivalente a 320 pixels CSS; ou o conteúdo exige layout bidimensional. [ABNT NBR 17225:2025, 5.10.4 (Requisito); WCAG 2.2, C.S. 1.4.10 (AA)]
 
-## Animação
+**Uso de Cores**
 
-- [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
-- [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
-- [ ] <b> Toda a animação</b> deve obedecer à `prefers-reduced-motion` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] Ausência de elementos que usam somente cores para transmitir informações, indicar uma ação, pedir uma resposta ou distinguir um elemento visual. [ABNT NBR 17225:2025, 5.11.1 (Requisito); WCAG 2.2, C.S. 1.4.1 (A)]
+- [ ] Conteúdo de texto (incluindo imagens de texto) tem relação de contraste de pelo menos 4.5:1 com o fundo; ou texto em tamanho grande tem contraste de pelo menos 3:1; ou o texto faz parte de logotipo ou está em plano secundário. [ABNT NBR 17225:2025, 5.11.3 (Requisito); WCAG 2.2, C.S. 1.4.3 (AA)]
+- [ ] Componentes de interface têm relação de contraste de pelo menos 3:1 com o fundo e entre seus estados; ou o componente está inativo. [ABNT NBR 17225:2025, 5.11.4 (Requisito); WCAG 2.2, C.S. 1.4.11 (AA)]
+- [ ] Partes de objetos gráficos necessárias para compreender o conteúdo têm relação de contraste de pelo menos 3:1 com o fundo e entre si; ou a apresentação específica dos objetos gráficos é essencial. [ABNT NBR 17225:2025, 5.11.5 (Requisito); WCAG 2.2, C.S. 1.4.11 (AA)]
+- [ ] Indicador de foco visível dos elementos focáveis tem relação de contraste de pelo menos 3:1 com o fundo e entre os estados em foco e sem foco. [ABNT NBR 17225:2025, 5.11.6 (Requisito); WCAG 2.2, C.S. 1.4.11 (AA), C.S. 2.4.13 (AAA)]
 
-## Contraste de Cores
+**Conteúdo Textual (Aspectos Visuais)**
 
-- [ ] <b> Verificar o contraste</b> de todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar `::selection` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
-
-## Referências Bibliograficas
-
-> <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP2" href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP3" href="#TEC3">3.</a> WCAG 2.2 Understanding Docs. SC 1.3.3 Sensory Characteristics (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP4" href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP5" href="#TEC5">5.</a> WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/reflow.html](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP6" href="#TEC6">6.</a> WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP7" href="#TEC7">7.</a> WCAG 2.2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP8" href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html). Acesso em: 9 Mai. 2024.
-
-> <a id="RP9" href="#TEC9">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Acesso em: 9 Mai. 2024.
-
-## Bibliografia
-
-> </a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+- [ ] Espaçamento entre as linhas (entrelinhas) em todos os blocos de texto é de pelo menos 1.5 vez o tamanho da fonte; ou existe mecanismo para configurar o espaçamento sem perda de conteúdo/funcionalidade. [ABNT NBR 17225:2025, 5.12.1 (Requisito); WCAG 2.2, C.S. 1.4.12 (AA), C.S. 1.4.8 (AAA)]
+- [ ] Espaçamento entre parágrafos é de pelo menos 2 vezes o tamanho da fonte; ou existe mecanismo para configurar o espaçamento sem perda de conteúdo/funcionalidade. [ABNT NBR 17225:2025, 5.12.2 (Requisito); WCAG 2.2, C.S. 1.4.12 (AA), C.S. 1.4.8 (AAA)]
+- [ ] Espaçamento entre as letras (rastreamento) em todos os blocos de texto é de pelo menos 0.12 vez o tamanho da fonte; ou existe mecanismo para configurar o espaçamento sem perda de conteúdo/funcionalidade. [ABNT NBR 17225:2025, 5.12.3 (Requisito); WCAG 2.2, C.S. 1.4.12 (AA)]
+- [ ] Espaçamento entre as palavras em todos os blocos de texto é de pelo menos 0.16 vez o tamanho da fonte; ou existe mecanismo para configurar o espaçamento sem perda de conteúdo/funcionalidade. [ABNT NBR 17225:2025, 5.12.4 (Requisito); WCAG 2.2, C.S. 1.4.12 (AA)]
+- [ ] Largura dos blocos de texto não ultrapassa 80 caracteres (40 caracteres se CJK); ou existe mecanismo para configurar a largura dos blocos de texto para alcançar esse resultado. [ABNT NBR 17225:2025, 5.12.6 (Requisito); WCAG 2.2, C.S. 1.4.10 (AA), C.S. 1.4.8 (AAA)]
+- [ ] Ausência de perda de conteúdo ou funcionalidade quando o texto é redimensionado sem tecnologia assistiva em até 200%, sem necessidade de rolagem horizontal em janela de tela inteira. [ABNT NBR 17225:2025, 5.12.7 (Requisito); WCAG 2.2, C.S. 1.4.4 (AA), C.S. 1.4.8 (AAA)]
